@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background-image: url(./Components/assects/img/planeta.png);
+}
+
+.App {
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+    line-height: 2.5rem;
+}
+
+.card {
+  background-color: rgba(223, 236, 236, 0.856);
+  margin: auto;
+  display: flex;
+  border-radius: 15px;
+  padding: 20px;
+ 
+} 
+
+.temp {
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  min-width: 576px; 
+  margin: 0 auto;
+  
+}
+
+.Loader{
+  font-size: 40px;
+  color: white;
+}
+
+.fond {
+ background-size: cover;
+}
